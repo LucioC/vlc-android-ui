@@ -1,0 +1,47 @@
+# VLC
+/vlc/
+/toolchains/
+
+# Android .so
+/android-libs/**/*.so
+.modules/
+
+# tmp dir used by gdb.sh
+.gdb
+# debug symbols
+.dbg
+
+# Local configuration
+local.properties
+env.sh
+
+# OS specific
+.DS_Store
+.directory
+*~
+.*.swp
+Thumbs.db
+
+# Signage keys
+*.keystore
+
+# Eclipse
+#.classpath
+#.project
+java-libs/appcompat/.classpath
+java-libs/appcompat/.project
+
+# Android Studio
+.idea
+*.iml
+
+#gradle
+gradle.properties
+gradlew.bat
+gradlew
+gradle/
+.gradle/
+build/
+vlc-android/build/
+java-libs/WheelView/build/
+libVLC/build/
